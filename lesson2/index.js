@@ -5,7 +5,9 @@
 */
 
 for(let i=10; i<51; i++){
-    console.log(i);
+        if (i%2===0) {
+        console.log(i);
+    }
 }
 
 /* 
@@ -111,6 +113,8 @@ showName('Polina', 'Ryabtsevich');
 
 let i=21;
 while(i<68){
-    console.log(i);
+    if (i%2!==0) {
+        console.log(i);
+    }
     i++;
 }
